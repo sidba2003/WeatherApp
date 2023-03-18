@@ -26,7 +26,7 @@ def setArray(temperature, place):
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", temperature=get_weather("London"))
 
 @app.route("/weather", methods=["POST"])
 def weather():
