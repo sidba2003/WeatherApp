@@ -1,0 +1,101 @@
+header,footer,nav,div,p,body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+  }
+  
+  header{
+  background-color:#00008B ;
+  height: 3em;
+  }
+  
+  header .brand{
+    float: left;
+    padding: 0px 10px;
+    margin-left: 0.1em;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1;
+    color: black;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+  
+  }
+  
+  
+  header nav{
+    position: relative;
+    display: block;
+    float: left;
+    
+  }
+  
+  header li{
+    display: inline;
+    padding: 1em;
+    font-size: 1.2em;
+  }
+  
+  :link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  body{
+   background-color: rgb(35, 45, 85);}
+  
+  
+  
+  div#container{
+      position: relative;
+    }
+    
+    
+    #main {
+      margin: 1em 18em 0em 18em;
+      background-color: rgb(117, 230, 117);
+      height: 14em;
+      margin-left: 17em;
+      margin-right: 5em;
+      margin-top: 12em;
+      margin-bottom: 2em;
+      float: initial;
+      width: 40em;
+      text-align: center;
+    }
+    
+  
+    
+    hr {
+      width: 38em;
+    }
+    
+  
+   
+  
+    #myself h1{
+      font-size: 2em;
+      font-family:  Arial;
+      color: black;
+      text-align: center;
+      top: 3em;
+    }
+  
+    #myself h2{
+      font-size: 1.2em;
+      font-family: Arial;
+      color: black;
+      text-align: center;
+    }
+  
+    article{
+      background-color: rgb(117, 230, 117);
+      height: 18em;
+    }
+  
+  
+   
+  
+  
+  
+  
