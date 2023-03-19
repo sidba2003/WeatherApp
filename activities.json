@@ -1,17 +1,16 @@
 {
-    "thorpe park":
+    "Thorpe Park Amusement Park":
     {
-        "high": ["tidal wave", "storm surge", "rush", "samurai"],
-        "low": ["stealth", "nemesis inferno", "saw", "the swarm"]
+        "high": ["Tidal Wave", "Storm Surge", "Colossus", "Nemesis Inferno", "Stealth", "Saw - The Ride"],
+        "low": ["The Swarm", "Detonator: Bombs Away", "Samurai", "Vortex", "Flying Fish", "Zodiac"]
     },
-    "Alton Towers":
+    "Alton Towers Amusement Park":
     {
-        "high": ["smiler", "thirteen", "oblivion", "galactica"],
-        "low": ["runaway mine train", "hex", "spiral", "spinball whizzer"]
+        "high": ["Oblivion", "The Smiler", "Rita", "Th13teen", "Wicker Man", "Nemesis"],
+        "low": ["Galactica", "Spinball Whizzer", "Runaway Mine Train", "Heave Ho", "Marauder's Mayhem", "Frog Hopper"]
     },
-    "Blackpool amusement park":
-    {
-        "high": ["valhalla", "icon", "big one", "avalanche"],
-        "low": ["grand national", "wallace and gromit's thrill-o-matic", "blue flyer", "river caves"]
+    "Blackpool Amusement Park":
+    {        "high": ["Valhalla", "Infusion", "The Big One", "Avalanche", "Revolution", "Steeplechase"],
+        "low": ["Grand Prix", "Wallace & Gromit's Thrill-O-Matic", "Nickelodeon Streak", "Alice Ride", "Blue Flyer", "Flying Machines"]
     }
 }
