@@ -12,7 +12,10 @@ def get_weather(place):
     res = requests.get(url, headers=headers)
     soup = BeautifulSoup(res.text, "html.parser")
     temp = soup.find("span", class_="wob_t").text
-    return temp
+    precipitation = soup.find("span", id="wob_pp").text[:2]
+    humidity = soup.find("span", id="wob_hm").text[:2]
+    wind_speed = soup.find("span", class_="wob_t").text[:2]
+    return temp, precipitation, humidity, wind_speed
 
 def setArray(temperature, place):
         f = open("activities.json")
@@ -26,13 +29,14 @@ def setArray(temperature, place):
 
 @app.route("/")
 def index():
-    return render_template("index.html", temperature=get_weather("London"))
+    temperature, precipitation, humidity, wind_speed = get_weather("London")
+    return render_template(temperature=temperature, precipitation = precipitation, humidity = humidity, wind_speed = wind_speed)
 
 @app.route("/weather", methods=["POST"])
 def weather():
     place = request.form["place"]
-    temperature = get_weather(place)
-    return render_template("weather.html", place=place, temperature=temperature, array=setArray(temperature, place))
+    temperature, precipitation, humidity, wind_speed = get_weather(place)
+    return render_template("weather.html", place=place, temperature=temperature, precipitation = precipitation, humidity = humidity, wind_speed = wind_speed, array=setArray(temperature, place))
 
 if __name__ == "__main__":
     app.run(debug=True)

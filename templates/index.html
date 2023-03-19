@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +10,9 @@
 <body>
     <p> London</p>
     <p>{{ temperature }}°C.</p>
+    <p> humidity is {{ humidity }} %</p>
+    <p> precipation is {{ precipation }} %</p>
+    <p> wind speed is {{ wind_speed }} mph</p>
    
     <form method="POST" action="/weather">
         <button name="place" value="thorpe park"> Thorpe park</button><hr>
