@@ -1,19 +1,17 @@
 {
     "thorpe park":
     {
-        "low": ["low1", "low2", "low3"],
-        "high": ["high1", "high2", "high3"]
+        "high": ["tidal wave", "storm surge", "rush", "samurai"],
+        "low": ["stealth", "nemesis inferno", "saw", "the swarm"]
     },
-
-    "alton towers":
+    "Alton Towers":
     {
-        "low": [],
-        "high": []
+        "high": ["smiler", "thirteen", "oblivion", "galactica"],
+        "low": ["runaway mine train", "hex", "spiral", "spinball whizzer"]
     },
-
-    "blackpool amusement park":
+    "Blackpool amusement park":
     {
-        "low": [],
-        "high": []
+        "high": ["valhalla", "icon", "big one", "avalanche"],
+        "low": ["grand national", "wallace and gromit's thrill-o-matic", "blue flyer", "river caves"]
     }
 }
