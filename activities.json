@@ -10,7 +10,7 @@
         "low": ["Galactica", "Spinball Whizzer", "Runaway Mine Train", "Heave Ho", "Marauder's Mayhem", "Frog Hopper"]
     },
     "Blackpool Amusement Park":
-    {        "high": ["Valhalla", "Infusion", "The Big One", "Avalanche", "Revolution", "Steeplechase"],
-        "low": ["Grand Prix", "Wallace & Gromit's Thrill-O-Matic", "Nickelodeon Streak", "Alice Ride", "Blue Flyer", "Flying Machines"]
+    {    "high": ["Valhalla", "Infusion", "The Big One", "Avalanche", "Revolution", "Steeplechase"],
+         "low": ["Grand Prix", "Wallace & Gromit's Thrill-O-Matic", "Nickelodeon Streak", "Alice Ride", "Blue Flyer", "Flying Machines"]
     }
 }
