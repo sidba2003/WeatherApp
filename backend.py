@@ -14,7 +14,7 @@ def get_weather(place):
     temp = soup.find("span", class_="wob_t").text
     precipitation = soup.find("span", id="wob_pp").text[:1]
     humidity = soup.find("span", id="wob_hm").text[:2]
-    wind_speed = soup.find("span", class_="wob_t").text[:2]
+    wind_speed = soup.find("span", id="wob_ws").text[:2]
     return temp, precipitation, humidity, wind_speed
 
 def setArray(temperature, place):
