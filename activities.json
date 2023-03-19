@@ -3,5 +3,17 @@
     {
         "low": ["low1", "low2", "low3"],
         "high": ["high1", "high2", "high3"]
+    },
+
+    "alton towers":
+    {
+        "low": [],
+        "high": []
+    },
+
+    "blackpool amusement park":
+    {
+        "low": [],
+        "high": []
     }
 }
