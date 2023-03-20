@@ -80,6 +80,10 @@ header,footer,nav,div,p,body{
     text-align: left;
    }
 
+   .btn:hover{
+    background-color: lawngreen;
+   }
+
    #parks p {
     font-size: 0.60em;
     text-align: center;
