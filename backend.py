@@ -41,7 +41,12 @@ def index():
 def weather():
     place = request.form["place"]
     temperature, precipitation, humidity, wind_speed = get_weather(place)
-    return render_template("weather.html", place=place, temperature=temperature, precipitation = precipitation, humidity = humidity, wind_speed = wind_speed, array=setArray(temperature, place))
+    if int(temperature) < 9:
+         image = "cold.png"
+    else:
+         image = "hot.png"
+
+    return render_template("weather.html", place=place, temperature=temperature, precipitation = precipitation, humidity = humidity, wind_speed = wind_speed, image = image, array=setArray(temperature, place))
 
 if __name__ == "__main__":
     app.run(debug=True)
