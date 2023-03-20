@@ -1,7 +1,13 @@
 {
-    "Thorpe Park":
+    "Thorpe Park Amusement Park":
     {
-        "high": ["Tidal Wave", "Storm Surge", "Colossus", "Nemesis Inferno", "Stealth", "Saw - The Ride"],
+        "high": [
+            {"name": "Tidal Wave", "video": "https://www.youtube.com/watch?v=lTvFJ95SVh0&ab_channel=PlanItPark"},
+            {"name": "Storm Surge", "video": "https://www.youtube.com/watch?v=5JTh7_iRijw&ab_channel=YourExperienceGuide"},
+            {"name": "Colossus", "video": "https://www.youtube.com/watch?v=KeKIBSN2F5c&ab_channel=EastCoasterGeneral"},
+            {"name": "Nemesis Inferno", "video": "https://www.youtube.com/watch?v=h6Gdatn7LYw&ab_channel=AttractionSource"},
+            {"name": "Stealth", "video": "https://www.youtube.com/watch?v=p3KGBjqIbfc&t=1s&ab_channel=EastCoasterGeneral"},
+            {"name": "Saw - The Ride", "video": "https://www.youtube.com/watch?v=oW6t_MiUy1w&ab_channel=EastCoasterGeneral"},
         "low": [
             {"name": "The Swarm", "video": "https://www.youtube.com/watch?v=UcwkE-jlQF4&ab_channel=AttractionSource"},
             {"name": "Detonator: Bombs Away", "video": "https://www.youtube.com/watch?v=1YEDJw1u9ac&ab_channel=CHOICEDJ"},
@@ -11,9 +17,15 @@
             {"name": "Zodiac", "video": "https://www.youtube.com/watch?v=gMaXGCPi8tk&ab_channel=cryptiksouls"}
         ]
     },
-    "Alton Towers":
+    "Alton Towers Amusement Park":
     {
-        "high": ["Oblivion", "The Smiler", "Rita", "Th13teen", "Wicker Man", "Nemesis"],
+        "high": [
+            {"name": "Oblivion", "video": "https://www.youtube.com/watch?v=XaxpjDMsV7c&ab_channel=AttractionSource"},
+            {"name": "The Smiler", "video": "https://www.youtube.com/watch?v=Sx1y5qsJih8&ab_channel=AttractionSource"},
+            {"name": "Rita", "video": "https://www.youtube.com/watch?v=vJXNGRv1TP4&ab_channel=AttractionSource"},
+            {"name": "Th13teen", "video": "https://www.youtube.com/watch?v=hAwCIpkZSmc&ab_channel=AttractionSource"},
+            {"name": "Wicker Man", "video": "https://www.youtube.com/watch?v=SgAOrKqFIvY&ab_channel=AttractionSource"},
+            {"name": "Nemesis", "video": "https://www.youtube.com/watch?v=QvKezlVHFGk&ab_channel=AttractionSource"}],
         "low": [
             {"name": "Galactica", "video": "https://www.youtube.com/watch?v=AR89BSqr_EA&ab_channel=XtremeCoastersNetwork"},
             {"name": "Spinball Whizzer", "video": "https://www.youtube.com/watch?v=PHGM3IBQ4U0&ab_channel=AttractionSource"},
@@ -25,7 +37,13 @@
     },
     "Blackpool Amusement Park":
     {
-        "high": ["Valhalla", "Infusion", "The Big One", "Avalanche", "Revolution", "Steeplechase"],
+         "high": [
+            {"name": "Valhalla", "video": "https://www.youtube.com/watch?v=zVm-sSEC8iA&ab_channel=RideReview"},
+            {"name": "Infusion", "video": "https://www.youtube.com/watch?v=Vu90v09JzMw&ab_channel=YourExperienceGuide"},
+            {"name": "The Big One", "video": "https://www.youtube.com/watch?v=ZZv7rV0waOA&ab_channel=YourExperienceGuide"},
+            {"name": "Avalanche", "video": "https://www.youtube.com/watch?v=LRE5gLbyQF0&ab_channel=YourExperienceGuide"},
+            {"name": "Revolution", "video": "https://www.youtube.com/watch?v=M6qgXCo3dbE&ab_channel=YourExperienceGuide"},
+            {"name": "Steeplechase", "video": "https://www.youtube.com/watch?v=DDpJg4hdYN4&ab_channel=YourExperienceGuide"}],
         "low": [
             {"name": "Grand Prix", "video": "https://www.youtube.com/watch?v=IjXKCZFEZPk&ab_channel=kirmesfanmopohl"},
             {"name": "Wallace & Gromit's Thrill-O-Matic", "video": "https://www.youtube.com/watch?v=gh_1YPpKdeY&ab_channel=YourExperienceGuide"},
