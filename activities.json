@@ -1,10 +1,10 @@
 {
-    "Thorpe Park Amusement Park":
+    "Thorpe Park":
     {
         "high": ["Tidal Wave", "Storm Surge", "Colossus", "Nemesis Inferno", "Stealth", "Saw - The Ride"],
         "low": ["The Swarm", "Detonator: Bombs Away", "Samurai", "Vortex", "Flying Fish", "Zodiac"]
     },
-    "Alton Towers Amusement Park":
+    "Alton Towers":
     {
         "high": ["Oblivion", "The Smiler", "Rita", "Th13teen", "Wicker Man", "Nemesis"],
         "low": ["Galactica", "Spinball Whizzer", "Runaway Mine Train", "Heave Ho", "Marauder's Mayhem", "Frog Hopper"]
