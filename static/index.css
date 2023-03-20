@@ -82,6 +82,7 @@ header,footer,nav,div,p,body{
 
    .btn:hover{
     background-color: lawngreen;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
    }
 
    #parks p {
