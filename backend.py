@@ -30,7 +30,7 @@ def setArray(temperature, place):
 @app.route("/")
 def index():
     temperature, precipitation, humidity, wind_speed = get_weather("London")
-    if temperature < 9:
+    if int(temperature) < 9:
          image = "cold.png"
     else:
          image = "hot.png"
