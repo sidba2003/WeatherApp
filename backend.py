@@ -12,7 +12,7 @@ def get_weather(place):
     res = requests.get(url, headers=headers)
     soup = BeautifulSoup(res.text, "html.parser")
     temp = soup.find("span", class_="wob_t").text
-    precipitation = soup.find("span", id="wob_pp").text[:1]
+    precipitation = soup.find("span", id="wob_pp").text[:2]
     humidity = soup.find("span", id="wob_hm").text[:2]
     wind_speed = soup.find("span", id="wob_ws").text[:2]
     return temp, precipitation, humidity, wind_speed
@@ -46,7 +46,7 @@ def weather():
     else:
          image = "hot.png"
 
-    return render_template("weather.html", place=place, temperature=temperature, precipitation = precipitation, humidity = humidity, wind_speed = wind_speed, image = image, array=setArray(temperature, place))
+    return render_template("weather.html", place=place, temperature=temperature, precipitation = precipitation.replace("%",""), humidity = humidity, wind_speed = wind_speed, image = image, array=setArray(temperature, place))
 
 if __name__ == "__main__":
     app.run(debug=True)
