@@ -8,18 +8,46 @@
 
 </head>
 <body>
-    <p> London</p>
-    <p>{{ temperature }}°C.</p>
+    <h1> London</h1>
+    <h2>{{ temperature }}°C.</h2>
     <img src="{{ url_for('static', filename=image) }}">
-    <p> humidity is {{ humidity }} %</p>
-    <p> precipation is {{ precipitation }} %</p>
-    <p> wind speed is {{ wind_speed }} mph</p>
-   
-    <form method="POST" action="/weather">
-        <button name="place" value="Thorpe Park"> Thorpe park</button><hr>
-        <button name="place" value="Alton Towers">Alton Towers</button><hr>
-        <button name="place" value="Blackpool Amusement Park">Blackpool amusement park</button>
-    </form>
+
+
+<form method="POST" action="/weather" align="center"> 
+    <fieldset>
+        <div id="addparks"> 
+            <div id="parks"> 
+                <p> Choose Park</p>
+                <button name="place" value="Thorpe Park"> Thorpe park</button>
+                </br>
+              
+                <button name="place" value="Alton Towers">Alton Towers</button>
+                </br>
+            
+                <button name="place" value="Blackpool Amusement Park">Blackpool amusement park</button>
+                </br>
+            </div> 
+        </div> 
+    </fieldset>
+</form>
+    <article>
+        <div id="humid">
+            <h1>Humidity</h1>  
+            <p>{{ humidity }} %  </p>
+        </div> 
+        
+        <div id="precipitation">
+            <h1>Precipitation  </h1> 
+            <p>{{ precipitation }} %  </p> 
+        </div>
+
+        <div id="windspeed">
+            <h1> Wind </h1> 
+            <p>{{ wind_speed }} mph</p> 
+        </div>
+       
+    </article>
+
 
 </body>
 </html>
