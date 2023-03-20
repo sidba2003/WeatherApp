@@ -14,7 +14,7 @@
     <p>recommended activities are:</p>
     <ul>
         {% for i in array %}
-            <li>{{ i }}</li>
+            <li>The name is {{ i['name'] }}...the linke video can be found at <a href = {{ i['video'] }}>here</a></li>
         {% endfor %}
     </ul>
 </body>
