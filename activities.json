@@ -7,7 +7,7 @@
             {"name": "Colossus", "video": "https://www.youtube.com/watch?v=KeKIBSN2F5c&ab_channel=EastCoasterGeneral"},
             {"name": "Nemesis Inferno", "video": "https://www.youtube.com/watch?v=h6Gdatn7LYw&ab_channel=AttractionSource"},
             {"name": "Stealth", "video": "https://www.youtube.com/watch?v=p3KGBjqIbfc&t=1s&ab_channel=EastCoasterGeneral"},
-            {"name": "Saw - The Ride", "video": "https://www.youtube.com/watch?v=oW6t_MiUy1w&ab_channel=EastCoasterGeneral"},
+            {"name": "Saw - The Ride", "video": "https://www.youtube.com/watch?v=oW6t_MiUy1w&ab_channel=EastCoasterGeneral"}],
         "low": [
             {"name": "The Swarm", "video": "https://www.youtube.com/watch?v=UcwkE-jlQF4&ab_channel=AttractionSource"},
             {"name": "Detonator: Bombs Away", "video": "https://www.youtube.com/watch?v=1YEDJw1u9ac&ab_channel=CHOICEDJ"},
@@ -16,6 +16,7 @@
             {"name": "Flying Fish", "video": "https://www.youtube.com/watch?v=8gnyjnLzeew&ab_channel=PlanItPark"},
             {"name": "Zodiac", "video": "https://www.youtube.com/watch?v=gMaXGCPi8tk&ab_channel=cryptiksouls"}
         ]
+    },
  
     "Alton Towers Amusement Park":
     {
@@ -35,6 +36,7 @@
             {"name": "Frog Hopper", "video": "https://www.youtube.com/watch?v=ivAo9e1tXZw&ab_channel=OurThemeParkLife"}
         ]
     },
+
     "Blackpool Amusement Park":
     {
          "high": [
@@ -53,4 +55,6 @@
             {"name": "Flying Machines", "video": "https://www.youtube.com/watch?v=YHfb-FFZ-RY&ab_channel=YourExperienceGuide"}
         ]
     }
+}
+
 
