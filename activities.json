@@ -2,15 +2,37 @@
     "Thorpe Park":
     {
         "high": ["Tidal Wave", "Storm Surge", "Colossus", "Nemesis Inferno", "Stealth", "Saw - The Ride"],
-        "low": ["The Swarm", "Detonator: Bombs Away", "Samurai", "Vortex", "Flying Fish", "Zodiac"]
+        "low": [
+            {"name": "The Swarm", "video": "https://www.youtube.com/watch?v=UcwkE-jlQF4&ab_channel=AttractionSource"},
+            {"name": "Detonator: Bombs Away", "video": "https://www.youtube.com/watch?v=1YEDJw1u9ac&ab_channel=CHOICEDJ"},
+            {"name": "Samurai", "video": "https://www.youtube.com/watch?v=2ajUojMq2zM&ab_channel=kirmesfanmopohl"},
+            {"name": "Vortex", "video": "https://www.youtube.com/watch?v=jFG0uKpP4OA&ab_channel=cryptiksouls"},
+            {"name": "Flying Fish", "video": "https://www.youtube.com/watch?v=8gnyjnLzeew&ab_channel=PlanItPark"},
+            {"name": "Zodiac", "video": "https://www.youtube.com/watch?v=gMaXGCPi8tk&ab_channel=cryptiksouls"}
+        ]
     },
     "Alton Towers":
     {
         "high": ["Oblivion", "The Smiler", "Rita", "Th13teen", "Wicker Man", "Nemesis"],
-        "low": ["Galactica", "Spinball Whizzer", "Runaway Mine Train", "Heave Ho", "Marauder's Mayhem", "Frog Hopper"]
+        "low": [
+            {"name": "Galactica", "video": "https://www.youtube.com/watch?v=AR89BSqr_EA&ab_channel=XtremeCoastersNetwork"},
+            {"name": "Spinball Whizzer", "video": "https://www.youtube.com/watch?v=PHGM3IBQ4U0&ab_channel=AttractionSource"},
+            {"name": "Runaway Mine Train", "video": "https://www.youtube.com/watch?v=mhql7LddGRw&ab_channel=PlanItPark"},
+            {"name": "Heave Ho", "video": "https://www.youtube.com/watch?v=GQGcHVPx_Ew&ab_channel=PlanItPark"},
+            {"name": "Marauder's Mayhem", "video": "https://www.youtube.com/watch?v=D-oiQv8-5Yg&ab_channel=PlanItPark"},
+            {"name": "Frog Hopper", "video": "https://www.youtube.com/watch?v=ivAo9e1tXZw&ab_channel=OurThemeParkLife"}
+        ]
     },
     "Blackpool Amusement Park":
-    {    "high": ["Valhalla", "Infusion", "The Big One", "Avalanche", "Revolution", "Steeplechase"],
-         "low": ["Grand Prix", "Wallace & Gromit's Thrill-O-Matic", "Nickelodeon Streak", "Alice Ride", "Blue Flyer", "Flying Machines"]
+    {
+        "high": ["Valhalla", "Infusion", "The Big One", "Avalanche", "Revolution", "Steeplechase"],
+        "low": [
+            {"name": "Grand Prix", "video": "https://www.youtube.com/watch?v=IjXKCZFEZPk&ab_channel=kirmesfanmopohl"},
+            {"name": "Wallace & Gromit's Thrill-O-Matic", "video": "https://www.youtube.com/watch?v=gh_1YPpKdeY&ab_channel=YourExperienceGuide"},
+            {"name": "Nickelodeon Streak", "video": "https://www.youtube.com/watch?v=BpCV0zW2VJA&ab_channel=ThemeParkWorldwide"},
+            {"name": "Alice Ride", "video": "https://www.youtube.com/watch?v=H5hW20JrmDQ&ab_channel=YourExperienceGuide"},
+            {"name": "Blue Flyer", "video": "https://www.youtube.com/watch?v=vQ1Oli0GjIA&ab_channel=YourExperienceGuide"},
+            {"name": "Flying Machines", "video": "https://www.youtube.com/watch?v=YHfb-FFZ-RY&ab_channel=YourExperienceGuide"}
+        ]
     }
 }
