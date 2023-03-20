@@ -1,5 +1,5 @@
 {
-    "Thorpe Park Amusement Park":
+    "Thorpe Park":
     {
         "high": [
             {"name": "Tidal Wave", "video": "https://www.youtube.com/watch?v=lTvFJ95SVh0&ab_channel=PlanItPark"},
@@ -18,7 +18,7 @@
         ]
     },
  
-    "Alton Towers Amusement Park":
+    "Alton Towers":
     {
         "high": [
             {"name": "Oblivion", "video": "https://www.youtube.com/watch?v=XaxpjDMsV7c&ab_channel=AttractionSource"},
