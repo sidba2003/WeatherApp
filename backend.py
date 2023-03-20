@@ -30,7 +30,12 @@ def setArray(temperature, place):
 @app.route("/")
 def index():
     temperature, precipitation, humidity, wind_speed = get_weather("London")
-    return render_template("index.html", temperature=temperature, precipitation = precipitation, humidity = humidity, wind_speed = wind_speed)
+    if temperature < 9:
+         image = "cold.png"
+    else:
+         image = "hot.png"
+         
+    return render_template("index.html", temperature=temperature, precipitation = precipitation, humidity = humidity, wind_speed = wind_speed, image = image)
 
 @app.route("/weather", methods=["POST"])
 def weather():

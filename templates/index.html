@@ -10,6 +10,7 @@
 <body>
     <p> London</p>
     <p>{{ temperature }}°C.</p>
+    <img src="{{ url_for('static', filename=image) }}">
     <p> humidity is {{ humidity }} %</p>
     <p> precipation is {{ precipitation }} %</p>
     <p> wind speed is {{ wind_speed }} mph</p>
