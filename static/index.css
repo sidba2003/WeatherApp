@@ -7,15 +7,11 @@ header,footer,nav,div,p,body{
   background-color:#00008B ;
   height: 3em;
   }
-  
 
-  
-  
   header nav{
     position: relative;
     display: block;
-    float: left;
-    
+    float: left; 
   }
   
   header li{
@@ -23,7 +19,6 @@ header,footer,nav,div,p,body{
     padding: 1em;
     font-size: 1.2em;
   }
-  
   
   body{
    background-color: rgb(44, 57, 106);
@@ -86,7 +81,7 @@ header,footer,nav,div,p,body{
     color: black;
    }
 
-   #parks p {
+   #parks p{
     font-size: 0.60em;
     text-align: center;
    }
@@ -149,7 +144,7 @@ header,footer,nav,div,p,body{
     font-size: 0.60em;
    }
   
-   img {
+   img{
     float: center;
     position: absolute;
     top: 6em;
