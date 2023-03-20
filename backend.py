@@ -35,7 +35,7 @@ def index():
     else:
          image = "hot.png"
          
-    return render_template("index.html", temperature=temperature, precipitation = precipitation, humidity = humidity, wind_speed = wind_speed, image = image)
+    return render_template("index.html", temperature=temperature, precipitation = precipitation.replace("%", ""), humidity = humidity, wind_speed = wind_speed, image = image)
 
 @app.route("/weather", methods=["POST"])
 def weather():
