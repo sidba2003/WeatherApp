@@ -3,19 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="weather.css"/>
 </head>
 <body>
-    <h1>Weather in {{ place }}</h1>
-    <p>The current temperature is {{ temperature }}°C.</p>
-    <img src = "{{ url_for('static', filename = image) }}">
-    <p> humidity is {{ humidity }} %</p>
-    <p> precipation is {{ precipitation }} %</p>
-    <p> wind speed is {{ wind_speed }} mph</p>
-    <p>recommended activities are:</p>
-    <ul>
-        {% for i in array %}
-            <li>The name is {{ i['name'] }}...the linke video can be found at <a href =  {{ i["video"] }}>here</a></li>
-        {% endfor %}
-    </ul>
+    <div class="summary">
+        <h1>Weather in {{ place }}</h1>
+        <h2>{{ temperature }}°C.</h2>
+        <img src = "{{ url_for('static', filename = image) }}">
+    </div>
+    <div class="stats">
+        <div class="stat">
+            <p class="day">M</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">T</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">W</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">T</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">F</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">S</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">S</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="activities">
+        <h2>recommended activities are:</h2>
+        <ul>
+            {% for i in array %}
+                <li>The name is {{ i['name'] }}...the linke video can be found at <a href =  {{ i['video'] }}>here</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 </body>
 </html>
