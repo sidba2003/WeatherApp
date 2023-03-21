@@ -57,22 +57,29 @@ header,footer,nav,div,p,body{
     margin-top: 0.6em;
     font-family: 'Arial'; }
     
-    
+  
+  img{
+    position: relative;
+    display: block;
+    width: 3em;
+    margin: auto;
+  }
+
+  form{
+    margin-top: 10%;
+  }
+
    fieldset{
     background-color: rgb(128, 92, 173);
-    border-radius: 15px;
-    padding: 50px;
-    height: 210px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    right: 500px;
-    top: 15em;
+    position: relative;
+    display: block;
     width: 15em;
-    float: right; 
-    position: absolute;
+    height: 210px; 
+    padding: 5px 20px; 
+    margin: auto;
+/*    margin-top: 15em;*/
     text-align: left;
+    border-radius: 15px;
    }
 
    .btn:hover{
@@ -86,55 +93,25 @@ header,footer,nav,div,p,body{
     text-align: center;
    }
 
-   article #humid{
+   article{
+    display: flex;
+    width: 100%;
+    maring: auto;
+    margin-top: 10%;
+    justify-content: space-around;
+   }
+
+   article #humid, article #precipitation, article #windspeed{
     background-color: rgb(84, 96, 188);
-    border-radius: 15px;
-    padding: 50px;
-    height: 100px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    right: 900px;
-    top: 17em;
+    position: relative;
+    display: block;
     width: 8em;
-    float: right; 
-    position: absolute; } 
+    height: 100px;
+    padding: 5px 20px; 
+    margin: auto;
+    border-radius: 15px;
+   } 
   
-
-
-   article #precipitation{
-    background-color:  rgb(84, 96, 188);
-    border-radius: 15px;
-    padding: 50px;
-    height: 100px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    right: 670px;
-    top: 17em;
-    width: 8em;
-    float: right; 
-    position: absolute;
-
-   }
-
-   article #windspeed{
-    background-color: rgb(84, 96, 188);
-    border-radius: 15px;
-    padding: 50px;
-    height: 100px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    right: 440px;
-    top: 17em;
-    width: 8em;
-    float: right; 
-    position: absolute;
-   }
 
    article h1{
     font-size: 0.90em;
@@ -144,14 +121,6 @@ header,footer,nav,div,p,body{
     font-size: 0.60em;
    }
   
-   img{
-    float: center;
-    position: absolute;
-    top: 6em;
-    left: 22.5em;
-    height: 3em;
-    width: 3em;
-}
 
 
 
