@@ -126,12 +126,14 @@
         <hr>
     </div>
     <div class="activities">
-        <h2>recommended activities are:</h2>
-        <ul>
-            {% for i in array %}
-                <li>The name is {{ i['name'] }}...the linke video can be found at <a href =  {{ i['video'] }}>here</a></li>
-            {% endfor %}
-        </ul>
+        <p class="header">Activity:</p>
+        <p class="header">Video:</p>
+        {% for i in array %}
+            <div class="activity">
+                <p>{{ i['name'] }} </p>
+                <a href =  {{ i['video'] }} class = "btn">Click Here</a>
+            </div>
+        {% endfor %}
     </div>
 </body>
 </html>
