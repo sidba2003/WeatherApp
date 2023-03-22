@@ -111,18 +111,6 @@ hr{
 	justify-content: space-between;
 }
 
-fieldset{
-    border-radius: 15px;
-    padding: 50px;
-    height: 210px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    width: 15em;
-    /* float: right; 
-    position: absolute;
-    text-align: left; */
-   }
-
 #parks p{
     font-size: 0.60em;
     text-align: center;
