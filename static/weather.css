@@ -112,7 +112,6 @@ hr{
 }
 
 fieldset{
-    background-color: rgb(128, 92, 173);
     border-radius: 15px;
     padding: 50px;
     height: 210px;
@@ -121,9 +120,9 @@ fieldset{
     padding-left: 20px;
     padding-right: 20px;
     width: 15em;
-    float: right; 
+    /* float: right; 
     position: absolute;
-    text-align: left;
+    text-align: left; */
    }
 
 #parks p{
