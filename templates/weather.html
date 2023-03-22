@@ -125,11 +125,11 @@
         </div>
         <hr>
     </div>
-    <div class="activities">
+    <div class="activities" id = "parks">
         <p class="header">Activity:</p>
         <p class="header">Video:</p>
         {% for i in array %}
-            <div class="activity" id="parks">
+            <div class="activity">
                 <p>{{ i['name'] }} </p>
                 <a href =  {{ i['video'] }} class = "btn">Click Here</a>
             </div>
