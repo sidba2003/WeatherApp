@@ -125,15 +125,17 @@
         </div>
         <hr>
     </div>
+    <fieldset>
     <div class="activities">
-        <p class="header">Activity:</p>
-        <p class="header">Video:</p>
-        {% for i in array %}
-            <div class="activity">
-                <p>{{ i['name'] }} </p>
-                <a href =  {{ i['video'] }} class = "btn">Watch a Video</a>
-            </div>
-        {% endfor %}
-    </div>
+            <p class="header">Activity:</p>
+            <p class="header">Video:</p>
+            {% for i in array %}
+                <div class="activity">
+                    <p>{{ i['name'] }} </p>
+                    <a href =  {{ i['video'] }} class = "btn">Watch a Video</a>
+                </div>
+            {% endfor %}
+        </div>
+    </fieldset>
 </body>
 </html>
