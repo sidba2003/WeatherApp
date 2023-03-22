@@ -111,6 +111,11 @@ hr{
 	justify-content: space-between;
 }
 
+#parks p{
+    font-size: 0.60em;
+    text-align: center;
+   }
+
 .btn:hover{
     background-color: lawngreen;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
