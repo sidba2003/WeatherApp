@@ -20,7 +20,7 @@ def get_weather(place):
 def setArray(temperature, place):
         f = open("activities.json")
         data = json.load(f)
-        if int(temperature) <= 25:
+        if int(temperature) < 10:
             return data[place]["low"] 
         else:
              return data[place["high"]]
@@ -30,7 +30,7 @@ def setArray(temperature, place):
 @app.route("/")
 def index():
     temperature, precipitation, humidity, wind_speed = get_weather("London")
-    if int(temperature) < 9:
+    if int(temperature) < 10:
          image = "cold.png"
     else:
          image = "hot.png"
