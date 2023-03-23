@@ -23,7 +23,7 @@ def setArray(temperature, place):
         if int(temperature) < 10:
             return data[place]["low"] 
         else:
-             return data[place["high"]]
+             return data[place]["high"]
         
 
 
