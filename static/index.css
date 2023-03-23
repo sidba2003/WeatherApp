@@ -1,169 +1,152 @@
-header,footer,nav,div,p,body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
+body{
+	background-color: rgb(44, 57, 106);
+	padding: 0;
+	margin: 0;
+	color: white;
+  font-size: 2em;
+  text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro{
+  /*	background-color: red;*/
+  position: relative;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 3%;
+  margin: auto;
+  text-align: center;
   }
   
-  header{
-  background-color:#00008B ;
-  height: 3em;
+.intro h1{
+    font-size: 2em;
   }
 
-  header nav{
+.intro h2{
+    font-size: 1em;
+  }
+
+.intro img{
     position: relative;
     display: block;
-    float: left; 
-  }
-  
-  header li{
-    display: inline;
-    padding: 1em;
-    font-size: 1.2em;
-  }
-  
-  body{
-   background-color: rgb(44, 57, 106);
-   text-align: center;
-   font-size: 2em;
-   color: white;
+    width: 3em;
+    margin: auto;
   }
 
-  body h1{
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 1;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   }
 
-   h2{
-    text-align: center;
+  .btn:hover{
+      background-color: lawngreen;
+      box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+      color: black;
+    }
+
+    
+   .stats{
+    background-color: #727190;
+    position: relative;
+    display: block;
+    width: 80%;
+    height: auto;
+    padding: 40px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 3px solid white;
+  }
+  
+  .stats .stat{
+  /*	background-color: red;*/
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 1.8em;
+  
+  }
+  
+  .stats .stat div{
+  /*	background-color: teal;*/
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+  }
+  
+  .stats .stat div img{
+    width: 7vw;
+    margin: auto 0;
+  }
+  
+  .stats .stat p{
+  /*	background-color: teal;*/
+    margin: auto 0;
+  }
+  
+  .stats .stat .day{
+    font-size: 1.5em;
+    flex-wrap: bold;
+    margin-right: 5%;
+  /*	margin: 0 1%;*/
+  }
+  
+  .stats .stat .wind{
+  /*	width: 5vw;*/
+  }
+  
+  hr{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    border: none;
+  }
+ 
+
+  .chooseparks{
+    background-color: rgb(128, 92, 173);
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 40px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 3px solid white;
     font-size: 1em;
-    color: white;
-    top: 5em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .chooseparks p{
+    font-size: 0.9em;
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+    position: relative;
+    display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
    }
 
-   body button{
+
+  .chooseparks button{
     background-color: rgb(37, 45, 80);
-    text-align: left;
-    font-size: 0.70em;
+    text-align: center;
+    font-size: 0.90em;
     line-height: 1.2;
     width: 100%;
     color: white;
     border-radius: 10px;
     float: center;
-    top: 14em;
-    margin-top: 0.6em;
+    top: 3em;
+    margin-right: 300px;
+    margin-top: 0.7em;
+    margin-inline: center;
     font-family: 'Arial'; }
-    
-    
-   fieldset{
-    background-color: rgb(128, 92, 173);
-    border-radius: 15px;
-    padding: 50px;
-    height: 210px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    right: 500px;
-    top: 15em;
-    width: 15em;
-    float: right; 
-    position: absolute;
-    text-align: left;
-   }
-
-   .btn:hover{
-    background-color: lawngreen;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-    color: black;
-   }
-
-   #parks p{
-    font-size: 0.60em;
-    text-align: center;
-   }
-
-   article #humid{
-    background-color: rgb(84, 96, 188);
-    border-radius: 15px;
-    padding: 50px;
-    height: 100px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    right: 900px;
-    top: 17em;
-    width: 8em;
-    float: right; 
-    position: absolute; } 
-  
 
 
-   article #precipitation{
-    background-color:  rgb(84, 96, 188);
-    border-radius: 15px;
-    padding: 50px;
-    height: 100px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    right: 670px;
-    top: 17em;
-    width: 8em;
-    float: right; 
-    position: absolute;
-
-   }
-
-   article #windspeed{
-    background-color: rgb(84, 96, 188);
-    border-radius: 15px;
-    padding: 50px;
-    height: 100px;
-    padding-bottom: 0.1cm;  
-    padding: 5px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    right: 440px;
-    top: 17em;
-    width: 8em;
-    float: right; 
-    position: absolute;
-   }
-
-   article h1{
-    font-size: 0.90em;
-   }
-
-   article {
-    font-size: 0.60em;
-   }
-  
-   img{
-    float: center;
-    position: absolute;
-    top: 6em;
-    left: 22.5em;
-    height: 3em;
-    width: 3em;
-}
-
-
-
-
-  
-    
-   
-   
-  
-  
-   
-  
-  
-  
   

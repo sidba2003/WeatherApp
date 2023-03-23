@@ -6,11 +6,18 @@
     <link rel="stylesheet" href="{{url_for('static', filename='weather.css')}}">
 </head>
 <body>
+    <div id="Home"> 
+        <form method="POST" action="/" align="center">
+            <button name="home" a href="{{ url_for('static', filename='index.html') }}" class="btn">Home</button>
+            </br>
+        </form>
+    </div> 
     <div class="summary">
         <h1>Weather in {{ place }}</h1>
         <h2>{{ temperature }}°C.</h2>
         <img src = "{{ url_for('static', filename = image) }}">
     </div>
+    
     <div class="stats">
         <div class="stat">
             <p class="day">M</p>

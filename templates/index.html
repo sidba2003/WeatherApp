@@ -8,46 +8,140 @@
 
 </head>
 <body>
-    <h1> London</h1>
-    <h2>{{ temperature }}°C.</h2>
-    <img src="{{ url_for('static', filename=image) }}">
+    <div class="intro">
+        <h1>London</h1>
+        <h2>{{ temperature }}°C.</h2>
+        <img src = "{{ url_for('static', filename = image) }}">
+    </div>
 
 
-<form method="POST" action="/weather" align="center"> 
-    <fieldset>
-        <div id="addparks"> 
-            <div id="parks"> 
-                <p> Choose Park</p>
-                <button name="place" value="Thorpe Park" class="btn"> Thorpe park</button>
-                </br>
-              
-                <button name="place" value="Alton Towers" class="btn">Alton Towers</button>
-                </br>
-            
-                <button name="place" value="Blackpool Amusement Park" class="btn">Blackpool amusement park</button>
-                </br>
-            </div> 
-        </div> 
-    </fieldset>
-</form>
-    <article>
-        <div id="humid">
-            <h1>Humidity</h1>  
-            <p>{{ humidity }} %  </p>
-        </div> 
+    <div class="stats">
+        <div class="stat">
+            <p class="day">M</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">T</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">W</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">T</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">F</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">S</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+        <div class="stat">
+            <p class="day">S</p>
+            <div>
+                <img src="../static/humidity.svg">
+                <p> {{ humidity }} %</p>
+            </div>
+            <div>
+                <img src="../static/precipitation.svg">
+                <p>{{ precipitation }} %</p>
+            </div>
+            <div>
+                <img src="../static/wind.svg">
+                <p>{{ wind_speed }} mph</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="chooseparks">
+        <p> Choose Park</p>
+        <form method="POST" action="/weather" align="center">
+            <button name="place" value="Thorpe Park" class="btn"> Thorpe park</button>
+            </br>
         
-        <div id="precipitation">
-            <h1>Precipitation  </h1> 
-            <p>{{ precipitation }} %  </p> 
-        </div>
-
-        <div id="windspeed">
-            <h1> Wind </h1> 
-            <p>{{ wind_speed }} mph</p> 
-        </div>
-       
-    </article>
-
-
+            <button name="place" value="Alton Towers" class="btn">Alton Towers</button>
+            </br>
+        
+            <button name="place" value="Blackpool Amusement Park" class="btn">Blackpool amusement park</button>
+            </br>
+        </form> 
+    </div>
 </body>
 </html>
