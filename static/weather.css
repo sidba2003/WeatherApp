@@ -1,108 +1,116 @@
-
 body{
-	background-color: rgb(44, 57, 106);
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    background-color: rgb(44, 57, 106);
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 
-.summary{
-/*	background-color: red;*/
-position: relative;
-display: block;
-width: auto;
-height: auto;
-padding: 5%;
-margin: auto;
-text-align: center;
-}
+  .summary{
+    /*	background-color: red;*/
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0.4%;
+    margin: auto;
+    text-align: center;
+    margin-top: 0.01%;
+    }
+    
+  .summary h1{
+    font-size: 3em;
+    }
 
-.summary h1{
-	font-size: 3em;
-}
+  .summary h2{
+    font-size: 2em;
+    }
 
-.summary h2{
-	font-size: 2em;
-}
+  .summary img{
+    position: relative;
+    display: block;
+    width: 4em;
+    margin: auto;
+    }
 
-.summary img{
-	position: relative;
-	display: block;
-	width: 3em;
-	margin: auto;
-}
 
-.stats{
-	background-color: #727190;
-	position: relative;
-	display: block;
-	width: 80%;
-	height: auto;
-	padding: 40px;
-	margin: auto;
-	margin-top: 1%;
-	border-radius: 30px;
-	border: 3px solid white;
-}
+   .btn:hover{
+    background-color: lawngreen;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    color: black;
+    }
 
-.stats .stat{
-/*	background-color: red;*/
-	position: relative;
-	display: flex;
-	width: 100%;
-	height: auto;
-	margin: auto;
-	justify-content: space-between;
-	font-size: 2em;
-
-}
-
-.stats .stat div{
-/*	background-color: teal;*/
-	display: flex;
-	width: 100%;
-	margin: auto;
-	justify-content: space-around;
-}
-
-.stats .stat div img{
-	width: 7vw;
-	margin: auto 0;
-}
-
-.stats .stat p{
-/*	background-color: teal;*/
-	margin: auto 0;
-}
-
-.stats .stat .day{
-	font-size: 1.5em;
-	flex-wrap: bold;
-	margin-right: 5%;
-/*	margin: 0 1%;*/
-}
-
-.stats .stat .wind{
-/*	width: 5vw;*/
-}
-
-hr{
-	background-color: white;
-	width: 100%;
-	height: 2px;
-	border: none;
-}
+    
+   .stats{
+    background-color: #727190;
+    position: relative;
+    display: block;
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 30px;
+    border: 3px solid white;
+  }
+  
+  .stats .stat{
+    /*	background-color: red;*/
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 1.2em;
+  
+  }
+  
+  .stats .stat div{
+    /*	background-color: teal;*/
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+  }
+  
+  .stats .stat div img{
+    width: 3vw;
+    margin: auto 0;
+  }
+  
+  .stats .stat p{
+  /*	background-color: teal;*/
+	margin: auto 0
+  }
+  
+  .stats .stat .day{
+    font-size: 1.5em;
+    flex-wrap: bold;
+    margin-right: 5%;
+  /*	margin: 0 1%;*/
+  }
+  
+  .stats .stat .wind{
+  /*	width: 5vw;*/
+  }
+  
+  hr{
+    background-color: white;
+    width: 100%;
+    height: 1.3px;
+    border: none;
+  }
 
 .activities{
 	background-color: #727190;
 	position: relative;
 	display: flex;
-	width: 80%;
+	width: 50%;
 	height: auto;
-	padding: 40px;
+	padding: 15px;
 	margin: auto;
-	margin-top: 5%;
+	margin-top: 1%;
 	border-radius: 30px;
 	border: 3px solid white;
 	font-size: 1em;
@@ -110,10 +118,7 @@ hr{
 	justify-content: space-between;
 }
 
-#parks p{
-    font-size: 0.60em;
-    text-align: center;
-   }
+
 
 .btn:hover{
     background-color: lawngreen;
@@ -122,20 +127,22 @@ hr{
    }
 
 .activities .header{
-	font-size: 3em;
+	font-size: 2em;
 	margin: auto 0;
+	margin-right: 6%;
+	margin-left: 4%;
 }
 
 .activities .activity{
 	background-color: #24234C;
 	position: relative;
 	display: flex;
-	width: 100%;
+	width:90%;
 	height: auto;
-	padding: 2.5% 5%;
+	padding: 2% 3%;
 	margin: auto;
-	margin-top: 10%;
-	border-radius: 20px;
+	margin-top: 3%;
+	border-radius: 15px;
 	border: 2px solide white;
 	justify-content: space-between;
 }
@@ -144,20 +151,20 @@ hr{
 	margin: auto 0;
 	color: white;
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.2em;
 }
 
 #Home button{
     background-color: #727190;
 	position: relative;
 	display: block;
-	width: 40%;
+	width: 30%;
 	height: auto;
-	padding: 10px;
+	padding: 9px;
 	margin: auto;
-	margin-top: 3%;
+	margin-top: 2%;
 	border-radius: 30px;
 	border: 3px solid white;
-	font-size: 1.7em;
+	font-size: 1.4em;
 }
 
