@@ -1,44 +1,43 @@
-body{
-	background-color: rgb(44, 57, 106);
-	padding: 0;
-	margin: 0;
-	color: white;
-  font-size: 2em;
-  text-align: center;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.intro{
-  /*	background-color: red;*/
-  position: relative;
-  display: block;
-  width: auto;
-  height: auto;
-  padding: 3%;
-  margin: auto;
-  text-align: center;
-  }
-  
-.intro h1{
-    font-size: 2em;
+  body{
+    background-color: rgb(44, 57, 106);
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-.intro h2{
-    font-size: 1em;
-  }
-
-.intro img{
+  .intro{
+    /*	background-color: red;*/
     position: relative;
     display: block;
-    width: 3em;
+    width: auto;
+    height: auto;
+    padding: 0.4%;
     margin: auto;
-  }
+    text-align: center;
+    margin-top: 0.01%;
+    }
+    
+  .intro h1{
+    font-size: 3.5em;
+    }
+
+  .intro h2{
+    font-size: 2.2em;
+    }
+
+  .intro img{
+    position: relative;
+    display: block;
+    width: 4em;
+    margin: auto;
+    }
 
 
-  .btn:hover{
-      background-color: lawngreen;
-      box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-      color: black;
+   .btn:hover{
+    background-color: lawngreen;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    color: black;
     }
 
     
@@ -46,29 +45,29 @@ body{
     background-color: #727190;
     position: relative;
     display: block;
-    width: 80%;
+    width: 50%;
     height: auto;
-    padding: 40px;
+    padding: 5px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 1%;
     border-radius: 30px;
     border: 3px solid white;
   }
   
   .stats .stat{
-  /*	background-color: red;*/
+    /*	background-color: red;*/
     position: relative;
     display: flex;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: auto;
     justify-content: space-between;
-    font-size: 1.8em;
+    font-size: 1.2em;
   
   }
   
   .stats .stat div{
-  /*	background-color: teal;*/
+    /*	background-color: teal;*/
     display: flex;
     width: 100%;
     margin: auto;
@@ -76,13 +75,13 @@ body{
   }
   
   .stats .stat div img{
-    width: 7vw;
+    width: 3vw;
     margin: auto 0;
   }
   
   .stats .stat p{
   /*	background-color: teal;*/
-    margin: auto 0;
+	margin: auto 0
   }
   
   .stats .stat .day{
@@ -99,7 +98,7 @@ body{
   hr{
     background-color: white;
     width: 100%;
-    height: 2px;
+    height: 1.3px;
     border: none;
   }
  
@@ -107,46 +106,40 @@ body{
   .chooseparks{
     background-color: rgb(128, 92, 173);
     position: relative;
-    display: flex;
-    width: 80%;
+    display: block;
+    width: 50%;
     height: auto;
-    padding: 40px;
+    padding: 5px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 1%;
     border-radius: 30px;
     border: 3px solid white;
-    font-size: 1em;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
   
-  .chooseparks p{
-    font-size: 0.9em;
-    text-align: center;
-    margin: auto;
-    margin-top: 7%;
-    position: relative;
-    display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-   }
 
 
   .chooseparks button{
     background-color: rgb(37, 45, 80);
     text-align: center;
-    font-size: 0.90em;
+    font-size: 1.5em;
     line-height: 1.2;
-    width: 100%;
+    width: 80%;
     color: white;
     border-radius: 10px;
-    float: center;
-    top: 3em;
     margin-right: 300px;
-    margin-top: 0.7em;
+    margin-top: 1.2em;
     margin-inline: center;
-    font-family: 'Arial'; }
+    font-family: 'Arial';
+    position: relative;
+    display: block;
+    justify-content: space-between;
+  }
 
+  .chooseparks .header{
+      font-size: 2em;
+      margin: auto 0;
+      margin-right: 8%;
+      margin-left: 4%;
 
+    }
   
