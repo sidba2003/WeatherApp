@@ -1,4 +1,5 @@
   body{
+  /* background and style of the whole page */
     background-color: rgb(44, 57, 106);
     padding: 0;
     margin: 0;
@@ -7,7 +8,7 @@
   }
 
   .intro{
-    /*	background-color: red;*/
+    /* styling for the park's location, and the temperature */
     position: relative;
     display: block;
     width: auto;
@@ -27,6 +28,7 @@
     }
 
   .intro img{
+    /* the icon of the temperature (hot.png/cold.png) */
     position: relative;
     display: block;
     width: 4em;
@@ -34,14 +36,8 @@
     }
 
 
-   .btn:hover{
-    background-color: lawngreen;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-    color: black;
-    }
-
-    
    .stats{
+    /* the table of the humidity, precipitation and wind of the park */
     background-color: #727190;
     position: relative;
     display: block;
@@ -75,6 +71,7 @@
   }
   
   .stats .stat div img{
+    /* the icon of the humidity, precipitation and wind of the park */
     width: 3vw;
     margin: auto 0;
   }
@@ -85,6 +82,7 @@
   }
   
   .stats .stat .day{
+  /* styling for the day */
     font-size: 1.5em;
     flex-wrap: bold;
     margin-right: 5%;
@@ -104,6 +102,7 @@
  
 
   .chooseparks{
+    /* Amusement parks sections  */
     background-color: rgb(128, 92, 173);
     position: relative;
     display: block;
@@ -117,8 +116,8 @@
   }
   
 
-
   .chooseparks button{
+    /* Amusement parks buttons */
     background-color: rgb(37, 45, 80);
     text-align: center;
     font-size: 1.5em;
@@ -141,5 +140,12 @@
       margin-right: 8%;
       margin-left: 4%;
 
+    }
+  
+  .btn:hover{
+    /* shadow effects on amusement park buttons */
+    background-color: lawngreen;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    color: black;
     }
   

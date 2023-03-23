@@ -1,4 +1,5 @@
 body{
+  /* background and style of the whole page */
     background-color: rgb(44, 57, 106);
     padding: 0;
     margin: 0;
@@ -6,8 +7,25 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
+
+  #Home button{
+    /* styling for the home(index.html) button */
+    background-color: #727190;
+    position: relative;
+    display: block;
+    width: 30%;
+    height: auto;
+    padding: 9px;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 30px;
+    border: 3px solid white;
+    font-size: 1.4em;
+}
+
+
   .summary{
-    /*	background-color: red;*/
+    /* styling for the park's location, and the temperature */
     position: relative;
     display: block;
     width: auto;
@@ -27,21 +45,15 @@ body{
     }
 
   .summary img{
+    /* the icon of the temperature (hot.png/cold.png) */
     position: relative;
     display: block;
     width: 4em;
     margin: auto;
     }
-
-
-   .btn:hover{
-    background-color: lawngreen;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-    color: black;
-    }
-
     
    .stats{
+    /* the table of the humidity, precipitation and wind of the park */
     background-color: #727190;
     position: relative;
     display: block;
@@ -55,7 +67,6 @@ body{
   }
   
   .stats .stat{
-    /*	background-color: red;*/
     position: relative;
     display: flex;
     width: 80%;
@@ -67,7 +78,6 @@ body{
   }
   
   .stats .stat div{
-    /*	background-color: teal;*/
     display: flex;
     width: 100%;
     margin: auto;
@@ -75,20 +85,20 @@ body{
   }
   
   .stats .stat div img{
+  /* the icon of the humidity, precipitation and wind of the park */
     width: 3vw;
     margin: auto 0;
   }
   
   .stats .stat p{
-  /*	background-color: teal;*/
 	margin: auto 0
   }
   
   .stats .stat .day{
+    /* styling for the day */
     font-size: 1.5em;
     flex-wrap: bold;
     margin-right: 5%;
-  /*	margin: 0 1%;*/
   }
   
   .stats .stat .wind{
@@ -103,6 +113,7 @@ body{
   }
 
 .activities{
+  /* styling for the rides availability section */
 	background-color: #727190;
 	position: relative;
 	display: flex;
@@ -119,12 +130,6 @@ body{
 }
 
 
-
-.btn:hover{
-    background-color: lawngreen;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-    color: black;
-   }
 
 .activities .header{
 	font-size: 2em;
@@ -154,17 +159,11 @@ body{
 	font-size: 1.2em;
 }
 
-#Home button{
-    background-color: #727190;
-	position: relative;
-	display: block;
-	width: 30%;
-	height: auto;
-	padding: 9px;
-	margin: auto;
-	margin-top: 2%;
-	border-radius: 30px;
-	border: 3px solid white;
-	font-size: 1.4em;
-}
 
+
+.btn:hover{
+  /* shadow effects on the video link button */
+  background-color: lawngreen;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  color: black;
+ }
