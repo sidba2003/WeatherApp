@@ -2,20 +2,32 @@ from flask import Flask, render_template, request
 import requests
 from bs4 import BeautifulSoup
 import json
+import platform
 
 app = Flask(__name__)
 
 # this method generates a query for a specific place to extract weather data using web scraping in python
 # it returns multiple values of scraping it, such as, temp, precipitation, humidity, and wind speed
 def get_weather(place):
+    userAgentValue = {
+        "Windows": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/58.0.3029.110 Safari/537.3",
+        "Darwin": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/90.0.4430.212 Safari/537.36"
+    }
+
     url = f"https://www.google.com/search?q=weather+in+{place}"
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"}
+
+    headers = {"User-Agent": userAgentValue[platform.system()]}
     res = requests.get(url, headers=headers)
+
     soup = BeautifulSoup(res.text, "html.parser")
-    temp = soup.find("span", class_="wob_t").text
+
+    temp = soup.find("span", id="wob_ttm").text
     precipitation = soup.find("span", id="wob_pp").text[:2]
     humidity = soup.find("span", id="wob_hm").text[:2]
     wind_speed = soup.find("span", id="wob_ws").text[:2]
+
     return temp, precipitation, humidity, wind_speed
 
 
