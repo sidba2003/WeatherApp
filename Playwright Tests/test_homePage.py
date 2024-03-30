@@ -7,8 +7,8 @@ def test_has_expected_title_and_headers(page: Page):
 
     expect(page).to_have_title("Weather App")
 
-    heaadLocator = page.locator("h1")
-    expect(heaadLocator).to_have_text("London")
+    headLocator = page.locator("h1")
+    expect(headLocator).to_have_text("London")
 
 
 def test_has_table_and_correct_table_rows(page: Page):
